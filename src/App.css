@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+.home {
+  width: 100%;
+  min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home>div:first-child {
+  height: 26.6vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (min-width: 480px) {
+  .home>div:first-child {
+    height: 37.5vh;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home>div:last-child {
+  width: var(--mainWidth);
+  margin: var(--mainMargin);
+  position: relative;
+  top: -150px;
+}
+
+section.header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+section.todo {
+  width: 100%;
+}
+
+section.todo .input {
+  width: 100%;
+  position: relative;
+}
+
+section.todo .input input[type="checkbox"] {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+
+section.todo .input input[type="text"] {
+  width: 100%;
+  padding: 20px 0 20px 60px;
+  border: none;
+}
+
+section.todo ul.list {
+  margin: 15px 0;
+}
+
+section.todo ul.list li {
+  padding: 20px;
+  border-bottom: 1px solid hsl(235, 19%, 35%);
+  display: grid;
+  align-items: center;
+  grid-template-columns: 10% 80% 10%;
+}
+
+section.todo ul.list li h4 {
+  margin-left: 5px;
+}
+
+section.todo ul.list li:last-child {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: none;
+}
+
+section.todo ul.filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 15px 0;
+  margin-bottom: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+section.todo ul.filter li {
+  margin: 0 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section.todo ul.filter li h3.active {
+  color: hsl(220, 98%, 61%);
+}
+
+section.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+h4.stateDone{
+  text-decoration: line-through;
 }

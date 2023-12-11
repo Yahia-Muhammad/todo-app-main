@@ -1,0 +1,78 @@
+.light .home {
+  background-color: hsl(236, 33%, 92%);
+}
+
+.dark .home {
+  background-color: hsl(235, 21%, 11%);
+}
+
+.light .home>div:first-child {
+  background-image: url("../images/bg-mobile-light.jpg");
+}
+
+.dark .home>div:first-child {
+  background-image: url("../images/bg-mobile-dark.jpg");
+}
+
+@media (min-width: 480px) {
+  .light .home>div:first-child {
+    background-image: url("../images/bg-desktop-light.jpg");
+  }
+  
+  .dark .home>div:first-child {
+    background-image: url("../images/bg-desktop-dark.jpg");
+  }
+}
+
+section.header h1,
+section.header span {
+  color: hsl(0, 0%, 100%);
+}
+
+/* .dark section.header h1,
+.dark section.header span {
+  color: hsl(0, 0%, 0%);
+} */
+
+.light h4 {
+  color: hsl(237, 14%, 26%);
+}
+
+.dark h4 {
+  color: hsl(236, 33%, 92%);
+}
+
+.light section.todo .input input[type="text"] {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(237, 14%, 26%);
+}
+
+.dark section.todo .input input[type="text"] {
+  background-color: hsl(235, 24%, 19%);
+  color: hsl(236, 33%, 92%);
+}
+
+
+.light section.todo ul.list {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.dark section.todo ul.list {
+  background-color: hsl(235, 24%, 19%);
+}
+
+.light section.todo ul.filter {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.dark section.todo ul.filter {
+  background-color: hsl(235, 24%, 19%);
+}
+
+.light .color-gray {
+  color: hsl(236, 9%, 61%);
+}
+
+.dark .color-gray {
+  color: hsl(236, 9%, 61%);
+}
