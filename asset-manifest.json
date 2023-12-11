@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/todo-app-main/static/css/main.beec0117.css",
+    "main.css": "/todo-app-main/static/css/main.a0160b48.css",
     "main.js": "/todo-app-main/static/js/main.d8826dd4.js",
     "static/media/bg-desktop-light.jpg": "/todo-app-main/static/media/bg-desktop-light.3508d620efd5a52bb4ce.jpg",
     "static/media/icomoon.svg?4ecfp1": "/todo-app-main/static/media/icomoon.47c9780e7382c5a3278a.svg",
@@ -9,11 +9,11 @@
     "static/media/icomoon.woff?4ecfp1": "/todo-app-main/static/media/icomoon.d0c217224f6d30cbe44f.woff",
     "static/media/icomoon.ttf?4ecfp1": "/todo-app-main/static/media/icomoon.08f6a4882f45a43e4e9e.ttf",
     "index.html": "/todo-app-main/index.html",
-    "main.beec0117.css.map": "/todo-app-main/static/css/main.beec0117.css.map",
+    "main.a0160b48.css.map": "/todo-app-main/static/css/main.a0160b48.css.map",
     "main.d8826dd4.js.map": "/todo-app-main/static/js/main.d8826dd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.beec0117.css",
+    "static/css/main.a0160b48.css",
     "static/js/main.d8826dd4.js"
   ]
 }
